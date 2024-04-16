@@ -133,6 +133,11 @@ namespace ProyectoCajeroAutomatico
                     case "4":
                         Console.WriteLine("Has salido de tu cuenta. ¡Hasta luego!");
                         return;
+                    case "5":
+                        Console.WriteLine("Porfavor ingrese el monto a depositar");
+                        Int32.TryParse(Console.ReadLine(), out int val);
+                        interacciones.Deposito(cuenta);
+                        break;
                     default:
                         Console.WriteLine("Opción no válida. Por favor, intenta de nuevo.");
                         break;
