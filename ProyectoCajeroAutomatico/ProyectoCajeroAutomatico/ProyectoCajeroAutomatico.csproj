@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Class1.cs" />
+    <Compile Include="Clases\Cajero.cs" />
+    <Compile Include="Clases\CuentaBancaria.cs" />
+    <Compile Include="Clases\Interacciones.cs" />
+    <Compile Include="Clases\Operaciones.cs" />
+    <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
